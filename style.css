@@ -1,0 +1,118 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	color: rgba(255,255,255,.8);
+/*	background-color: #43B0D3;*/
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+	}
+	
+body#home {
+	background-color: #43B0D3;
+	}
+
+body#photo {
+	background-color: #66CDAA;
+	}
+	
+body#video {
+	background-color: #F84525;
+	}
+	
+body#contact {
+	background-color: #244166;
+	}
+
+h1 {
+	text-size: 20pt;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	}
+
+#top {
+	font-family: 'Poiret One', cursive;
+	margin-top: 30px;
+	padding-bottom: 50px;
+	}
+
+#name {
+	font-size: 20pt;
+	float:left;
+	margin-left: 20px;
+	}
+
+hr {
+	width: 100%;
+	color: fff;
+	border: 0;
+	border-top: 1px solid rgba(255,255,255,.8);
+	line-height: 20px;
+	margin-top: -6pt;
+	
+}
+
+#nav-bar {
+	font-family: 'Poiret One', cursive;
+	float: right;
+	}
+	
+#nav-bar ul li {
+	display: inline;
+	}
+	
+#nav-bar ul {
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding: 0;
+	text-align: right;
+	}
+	
+#nav-bar > ul > li > a {
+	text-decoration: none;
+	padding: .2em .5em;
+	}
+	
+a:link {
+	color: #ff9900;
+	text-decoration: none;
+	transition: color .51s ease-in;
+	transition: color .51s ease-out;
+	}
+	
+a:visited {
+	color:rgba(255,255,255,.5);
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: rgba(255,255,255,.5);
+	text-decoration: none;
+	}
+	
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+	}	
+
+p#contact {
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 text-align: center;
+	}
+
+form {
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+article {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	}
